@@ -1,0 +1,13 @@
+#header {
+  display: grid;
+  width: auto;
+  height: 10vh;
+  outline: 6px solid black;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px 50px;
+}
+
+.link {
+  justify-self: end;
+}

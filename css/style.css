@@ -1,0 +1,40 @@
+/* Header, logo, page navigation */
+.header {
+  display: grid;
+  width: auto;
+  height: auto;
+  outline: 6px solid black;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 4fr 1fr 1fr 1fr;
+  padding: 0px 50px;
+
+}
+
+#logo {
+  justify-self: start;
+}
+
+/* Main, highlight_product, aboutme */
+
+#main {
+  display: grid;
+  width: auto;
+  height: auto;
+  grid-template-columns: 2fr 2fr;
+  justify-items: center;
+}
+
+#highlight_product {
+  display: grid;
+  width: auto;
+  height: auto;
+  grid-template-columns: minmax(250px 1fr);
+}
+
+#aboutme {
+  display: grid;
+  width: auto;
+  height: auto;
+  grid-template-columns: minmax(250px 1fr);
+}

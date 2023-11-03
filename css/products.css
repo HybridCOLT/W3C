@@ -1,0 +1,23 @@
+#header {
+  display: grid;
+  width: auto;
+  height: 10vh;
+  outline: 6px solid black;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px 50px;
+}
+
+.link {
+  justify-self: end;
+}
+
+.product_card {
+  background-color: red;
+  min-width: 300px;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
